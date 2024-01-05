@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.name {
+    color: var(--colors-purple, #4E148C);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (max-width: 920px) {
+    .header {
+        justify-content: center;
+    }
+    .name {
+        display: none;
+    }
+}

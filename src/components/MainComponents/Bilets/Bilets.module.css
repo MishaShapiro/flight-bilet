@@ -1,0 +1,102 @@
+.bilets {
+    display: flex;
+    flex-direction: column;
+}
+
+.loading {
+    width: 200px;
+    height: 200px;
+}
+
+.loadingCont {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nodata {
+    color: var(--colors-purple, #4E148C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.loadmore {
+    border-radius: 10px;
+    height: 62px;
+    background: var(--colors-purple, #4E148C);
+    border: 0px;
+
+    color: var(--colors-white, #F7F9F7);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s ease-in-out;
+}
+
+.filterButton {
+    margin-top: 10px;
+    border-radius: 10px;
+    background: var(--colors-purple, #4E148C);
+    border: 0px;
+    height: 44px;
+
+    color: var(--colors-white, #F7F9F7);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.loadmore:hover, .filterButton:hover {
+    cursor: pointer;
+    background:  #4e148ce7;
+}
+
+.loadmore:active, .filterButton:active {
+    background:  #20148c;
+    transition: 0.05s ease-in-out;
+}
+
+.loadmore:disabled {
+    cursor: default;
+    background:  #696779;
+}
+
+.open {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.openSettings {
+    position: relative;
+    color: var(--colors-white, #F7F9F7);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.openSettings::after {
+    content: url("../../../assets/arrow_down.svg");
+    position: absolute;
+    right: -30px;
+    top: 0px;
+}
+
+@media screen and (max-width: 660px) {
+    .openSettings {
+        display: none;
+    }
+}

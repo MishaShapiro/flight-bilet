@@ -1,0 +1,29 @@
+.container {
+    margin-right: 28px;
+    min-width: 120px;
+}
+
+.heading {
+    color: var(--colors-lavender, #858AE3);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 8px;
+}
+
+.text {
+    color: var(--colors-purple, #4E148C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-right: 0px;
+    }
+}

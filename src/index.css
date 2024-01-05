@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --colors-white: #F7F9F7;
+  --colors-purple: #4E148C;
+  --colors-light-lavender: #E8EBF2;
+}

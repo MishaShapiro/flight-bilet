@@ -1,0 +1,49 @@
+.button {
+    border: 1px solid var(--colors-purple, #4E148C);
+    background: var(--colors-light-lavender, #E8EBF2);
+    max-width: 243px;
+    width: 19vw;
+    height: 55px;
+    color: var(--colors-purple, #4E148C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.left {
+    border-radius: 10px 0px 0px 10px;
+}   
+
+.right {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.center {
+    border-radius: 0px;
+}
+
+.active {
+    background: var(--colors-purple, #4E148C);
+    color: var(--colors-white, #F7F9F7);
+}
+
+@media screen and (max-width: 920px) {
+    .button {
+        width: 33%;
+        max-width: 290px;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .button {
+        font-size: 12px;
+        font-weight: 500;
+        height: 42px;
+    } 
+}

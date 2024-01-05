@@ -1,0 +1,30 @@
+.connectionAmount {
+    border-radius: 10px;
+    background: var(--colors-light-lavender, #E8EBF2);
+    padding: 19px 0px 0px 19px;
+}
+
+.title {
+    color: var(--colors-purple, #4E148C);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.checkBoxes {
+    padding: 26px 21px;
+}
+
+@media screen and (max-width: 920px) {
+    .connectionAmount {
+        background: var(--colors-purple, #4E148C);
+    }
+    .title {
+        color: var(--colors-white, #F7F9F7);
+    }
+    .checkBoxes {
+        padding: 26px 21px 26px 0px;
+    }
+}

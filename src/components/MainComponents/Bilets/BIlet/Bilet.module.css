@@ -1,0 +1,32 @@
+.container {
+    margin: 29px 0px 46px;
+    border-radius: 10px;
+    background: var(--colors-light-lavender, #E8EBF2);
+    padding: 38px 40px 24px 39px;
+}
+
+.mainInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    color: var(--colors-purple, #4E148C);
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.otherInfo {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 38px 5px 24px 5px;
+    }
+}
